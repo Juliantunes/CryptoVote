@@ -1,0 +1,1 @@
+//how votes are cast and stored

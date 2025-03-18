@@ -1,0 +1,1 @@
+//helper functions (L function, mod inverse, random r)

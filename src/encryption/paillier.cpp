@@ -1,3 +1,6 @@
+//implementation of encryption,decryption, homomorphic addition
+
+
 #include <iostream>
 #include <gmpxx.h>
 
