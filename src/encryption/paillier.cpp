@@ -45,8 +45,8 @@ PaillierKeys generateKeys(int bitSize) {
     L = (gLambda - 1) / keys.n;
     mpz_invert(keys.mu.get_mpz_t(), L.get_mpz_t(), keys.n.get_mpz_t());
 
-    // Clean up GMP random state
+    // GMP random state
     gmp_randclear(randState);
 
-    return keys;  // ✅ Now correctly returns generated keys
+    return keys; 
 }
